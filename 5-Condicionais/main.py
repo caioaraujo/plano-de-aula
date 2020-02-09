@@ -13,8 +13,7 @@
 
 # python condicionais_3.py 121 1333
 
-# 4 - Crie um arquivo chamado condicionais_4.py que recebe três valores booleanos e escreva se o valor de cada um
-# é verdadeiro ou falso. Ex: O primeiro valor é verdadeiro. O segundo valor é falso. O terceiro valor é falso.
-# Utilize operadores de igualdade e diferença.
+# 4 - Crie um arquivo chamado condicionais_4.py que recebe dois números inteiros. Caso eles sejam divisíveis
+# (resto da divisão for zero), escreva "São divisíveis". Caso contrário, escreva "Não são divisíveis".
 
-# python condicionais_4.py True False False
+# python condicionais_4.py 34 2
