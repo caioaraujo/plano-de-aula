@@ -1,0 +1,111 @@
+Executar cada comando no terminal
+
+1 - Crie uma variavel chamada nome cujo o valor é o seu nome e escreva "Eu me chamo " e o valor de nome
+
+```
+nome = "Caio Araujo"
+
+print("Eu me chamo", nome)
+```
+
+2 - Crie uma variavel do tipo inteiro chamada dia com o dia de hoje e outra do tipo string chamada mes com o mes
+atual e escreva "Hoje é dia (valor do dia) de (valor do mes)"
+
+```
+dia = 27
+mes = "abril"
+
+print("Hoje é dia", dia, "de", mes)
+```
+
+3 - Crie uma variavel do tipo inteiro chamada dia com o dia de hoje, outra do tipo string chamada mes com o mes
+atual (valor numerico)* e outra do tipo inteiro chamada ano com o ano de hoje.
+Em seguida, crie uma variável para montar a data no formato dia/mês/ano com os valores
+e escreva "Hoje é dia (valor da data)"
+
+```
+dia = 27
+mes = "04"
+ano = 2020
+data = dia + "/" + mes + "/" + ano
+
+print("Hoje é dia", data)
+```
+
+Reparou o erro que deu? Isso é porque um valor inteiro não pode ser somado com uma string. Converta os valores
+inteiros para string na montagem da data e tente novamente.
+
+```
+data = str(dia) + "/" + str(mes) + "/" + str(ano)
+
+print("Hoje é dia", data)
+```
+
+4 - Repita o exercício anterior utilizando formatação de string
+
+```
+dia = 27
+mes = "04"
+ano = 2020
+```
+
+Alternativa 1:
+```
+data = "{}/{}/{}".format(dia, mes, ano)
+```
+
+Alternativa 2:
+```
+data = "{campo_dia}/{campo_mes}/{campo_ano}".format(campo_dia=dia, campo_mes=mes, campo_ano=ano)
+```
+
+Alternativa 3:
+```
+data = "%d/%s/%d" % (dia, mes, ano)
+```
+
+Alternativa 4 (python 3.6+):
+
+```
+data = f"{dia}/{mes}/{ano}"
+```
+
+```
+print("Hoje é dia", data)
+```
+
+5 - Receba o nome do usuário como entrada e escreva "Olá, (nome recebido)!"
+
+```
+nome = input("Qual o seu nome?")
+
+print("Olá,", nome + "!")
+```
+
+6 - Receba dois valores inteiros e escreva a soma deles
+
+```
+num_1 = input("Digite o primeiro número")
+num_2 = input("Digite o segundo número")
+
+print("A soma deles resulta em", num_1+num_2)
+```
+
+Opa! O resultado não saiu como esperávamos. Isso porque input nos devolve o valor como string. Vamos tentar
+novamente, convertendo os valores de entrada.
+
+```
+num_1 = int(input("Digite o primeiro número"))
+num_2 = int(input("Digite o segundo número"))
+
+print("Agora sim a soma deles resulta em", num_1+num_2)
+```
+
+7 - Repita o exercício anterior esperando dois valores ponto flutuante.
+
+```
+num_1 = float(input("Digite o primeiro número"))
+num_2 = float(input("Digite o segundo número"))
+
+print("A soma deles resulta em", num_1+num_2)
+```
