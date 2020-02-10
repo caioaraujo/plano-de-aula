@@ -1,0 +1,8 @@
+1 - Crie um arquivo chamado operacoes_1.py que recebe uma string. Escreva a quantidade de caracteres desta string.
+
+# python operacoes_1.py banana
+
+2 - Crie um arquivo chamado operacoes_2.py que recebe uma string. Escreva os 3 primeiros caracteres, e em seguida o
+último.
+
+# python operacoes_2.py abacate
