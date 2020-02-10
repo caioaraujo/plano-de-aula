@@ -1,6 +1,4 @@
-import sys
-
-nome = sys.argv[1]
-sobrenome = sys.argv[2]
+nome = input("Digite seu primeiro nome: ")
+sobrenome = input("Digite seu sobrenome: ")
 
 print(f"Olá, {nome} {sobrenome}!")

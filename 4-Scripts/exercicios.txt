@@ -7,7 +7,11 @@ valores de hoje e escreva "Hoje é dia (dia/mes/ano)". Dica: Use formatação de
 
 # python script_2.py
 
-3 - Crie um arquivo chamado script_3.py escrevendo "Olá (nome) (sobrenome)!", sendo que nome e sobrenome são
-valores de entrada.
+3 - Crie um arquivo chamado script_3.py que recebe o nome e sobrenome e ao final escreva "Olá (nome) (sobrenome)!".
 
-# python script_3.py Caio Araújo
+# python script_3.py
+
+4 - Repita o exercício anterior em um novo arquivo chamado script_4.py, porém recebendo nome e sobrenome como argumentos
+do script.
+
+# python script_4.py Nome Sobrenome
