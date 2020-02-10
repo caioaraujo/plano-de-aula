@@ -39,3 +39,14 @@ cinco números a sua escolha, de zero a dez. Caso o número recebido esteja na l
 escreva "Errou".
 
 # python colecoes_8.py 4
+
+9 - Crie um arquivo chamado colecoes_9.py que recebe cinco valores. Crie um dicionário que armazenará os respectivos
+valores em chaves chamadas item_1, item_2, item_3, item_4 e item_5. Escreva o conteúdo do dicionário ao final.
+
+# python colecoes_9.py arroz banana pastel batata python
+
+10 - Crie um arquivo chamado colecoes_10.py que recebe 5 números inteiros. Crie um dicionário contendo duas chaves,
+"pares" e "impares", que armazenará os valores de entrada em suas chaves equivalentes. Dica: Grave os valores de entrada
+em uma lista ou tupla, em seguida itere os valores para checar se é par ou ímpar e adicionar ao dicionário.
+
+# python colecoes_10.py 1 2 3 4 5
