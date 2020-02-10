@@ -34,7 +34,7 @@ primeiro item da lista e escreva apenas o item eliminado.
 
 # python colecoes_7.py batata arroz banana laranja manga
 
-8 - Crie um arquivo chamado colecoes_8.py que recebe um valor inteiro, de zero a dez. Crie uma lista contendo
+8 - Crie um arquivo chamado colecoes_8.py que recebe um valor inteiro, de zero a dez. Crie um tupla contendo
 cinco números a sua escolha, de zero a dez. Caso o número recebido esteja na lista, escreva "Acertou". Caso contrário,
 escreva "Errou".
 

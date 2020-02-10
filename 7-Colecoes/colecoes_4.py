@@ -7,7 +7,7 @@ item_4 = sys.argv[4]
 item_5 = sys.argv[5]
 
 lista = [item_1, item_2, item_3, item_4, item_5]
-lista_ordenada = sorted(lista)
+lista.sort()
 
-for item in lista_ordenada:
+for item in lista:
     print(item)
